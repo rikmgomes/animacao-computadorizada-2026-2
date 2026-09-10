@@ -1,4 +1,4 @@
-# Trabalhos - Animação Computadorizada
+# Animação Computadorizada 2026/2
 Repositório com os projetos desenvolvidos para a Atividade Acadêmica **Animação Computadorizada**, parte do curso de graduação em **Jogos Digitais da Unisinos**.
 
 👤 **Nome Completo:** Ricardo Moreira Gomes
