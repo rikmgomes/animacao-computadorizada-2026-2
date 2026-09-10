@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://dqhdu7885jpou"]
+
+[ext_resource type="Script" uid="uid://bq3fs6tfb8s7q" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://csh0ondm3bqf7" path="res://pathfollower.gd" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://bf2erhmkpxbj1" path="res://arrow.gd" id="3_h2yge"]
+
+[node name="Main" type="Node2D" unique_id=1929553468]
+script = ExtResource("1_ig7tw")
+
+[node name="Panel" type="Panel" parent="." unique_id=461289231]
+show_behind_parent = true
+
+[node name="ColorRect" type="ColorRect" parent="Panel" unique_id=693709743]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 1)
+
+[node name="UILabel" type="Label" parent="." unique_id=862272231]
+offset_right = 1152.0
+offset_bottom = 66.0
+theme_override_font_sizes/font_size = 24
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ControlPoints" type="Node2D" parent="." unique_id=1435515851]
+
+[node name="CP1" type="Marker2D" parent="ControlPoints" unique_id=170257460]
+position = Vector2(237, 198)
+
+[node name="CP2" type="Marker2D" parent="ControlPoints" unique_id=614287477]
+position = Vector2(187, 408)
+
+[node name="CP3" type="Marker2D" parent="ControlPoints" unique_id=377431912]
+position = Vector2(360, 533)
+
+[node name="CP4" type="Marker2D" parent="ControlPoints" unique_id=1901628252]
+position = Vector2(601, 545)
+
+[node name="CP5" type="Marker2D" parent="ControlPoints" unique_id=186615941]
+position = Vector2(807, 466)
+
+[node name="CP6" type="Marker2D" parent="ControlPoints" unique_id=1530747704]
+position = Vector2(921, 276)
+
+[node name="CP7" type="Marker2D" parent="ControlPoints" unique_id=1541901611]
+position = Vector2(795, 136)
+
+[node name="LinearLine" type="Line2D" parent="." unique_id=1815592675]
+show_behind_parent = true
+default_color = Color(0.22036338, 0.44557798, 1, 1)
+
+[node name="CatmullRomLine" type="Line2D" parent="." unique_id=827864075]
+show_behind_parent = true
+default_color = Color(0.51367754, 0.99999994, 0.48175043, 1)
+
+[node name="BezierLine" type="Line2D" parent="." unique_id=1350745442]
+show_behind_parent = true
+default_color = Color(1, 0.56370854, 0.50092375, 1)
+
+[node name="Mouse" type="Node2D" parent="." unique_id=1924688708]
+position = Vector2(93, 389)
+script = ExtResource("2_0xm2m")
+
+[node name="CubeVisual" type="Node2D" parent="Mouse" unique_id=1404443605]
+script = ExtResource("3_h2yge")
