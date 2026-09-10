@@ -44,7 +44,7 @@ O projeto consiste em uma cena única (main.tscn) + 4 scripts gerenciando as cur
 
 ## Link para a Build
 
-🔗 *Disponível no repositório do projeto.*
+🔗 https://rikmgomes.itch.io/ex-1-curvas-parametricas?secret=nl4Kk4Lsp6ra5tdCGXx3f8qAsQw
 
 ---
 
