@@ -8,3 +8,4 @@ Repositório com os projetos desenvolvidos para a Atividade Acadêmica **Animaç
 | Projeto | Engine / Linguagem | Descrição breve |
 | :--- | :--- | :--- |
 | `exercicio-1-curvas-parametricas` | Godot (GDScript) | Visualização interativa, cálculo e movimentação ao longo de curvas paramétricas (Linear, Catmull-Rom e Bézier).
+| `exercicio-2-particulas` | Godot (GDScript) | Visualização interativa de comportamentos em um sistema de partículas.
