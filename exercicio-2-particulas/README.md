@@ -45,7 +45,7 @@ O projeto consiste em uma cena única (`main.tscn`) + 2 scripts gerenciando o si
 
 ## Link para a Build
 
-🔗 
+🔗 https://rikmgomes.itch.io/exerccio-2-sistema-de-partculas?secret=hY391X8ZHsokURj957MjXQheHXI
 
 ---
 
