@@ -1,4 +1,4 @@
-# Trabalho Grau A: Espectro Sonoro
+# Exercício 3: Espectro Sonoro
 
 ## Equipe
 - Ricardo Moreira Gomes
