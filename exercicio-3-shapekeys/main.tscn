@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://ci7nk3yo82iiv"]
+
+[ext_resource type="Script" uid="uid://b0y05xg11qehh" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://bku4i28jwlado" path="res://suzanne.glb" id="2_h2yge"]
+
+[node name="Main" type="Node3D" unique_id=350955172]
+script = ExtResource("1_0xm2m")
+
+[node name="Modelo" parent="." unique_id=1424930478 instance=ExtResource("2_h2yge")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=2047434587]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 4)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1270802007]
+transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 0, 0)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=940145055]
+
+[node name="Label" type="Label" parent="CanvasLayer" unique_id=1444381954]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 50.0
+offset_bottom = 33.0
