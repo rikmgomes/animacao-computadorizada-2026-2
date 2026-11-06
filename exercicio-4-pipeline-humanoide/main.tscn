@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://ceck3ihrvrvf6"]
+
+[ext_resource type="Script" uid="uid://c6ixm2v5mk1iw" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://dqvpvm7iy3r2m" path="res://personagem.glb" id="1_ig7tw"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_qfjfu"]
+size = Vector2(6, 6)
+
+[sub_resource type="Environment" id="Environment_qfjfu"]
+background_mode = 1
+ambient_light_source = 2
+ambient_light_color = Color(0.5132331, 0.5132329, 0.51323277, 1)
+
+[node name="Main" type="Node3D" unique_id=1153829173]
+script = ExtResource("1_0xm2m")
+
+[node name="Personagem" parent="." unique_id=265516348 instance=ExtResource("1_ig7tw")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1244520396]
+transform = Transform3D(0.93878794, 0, 0.34449562, 0, 1, 0, -0.34449562, 0, 0.93878794, 0.5906218, 1, 1.4763317)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=32789220]
+transform = Transform3D(0.8660254, -0.35355338, 0.35355338, 0, 0.70710677, 0.70710677, -0.5, -0.6123724, 0.6123724, 0, 0, 0)
+
+[node name="Chao" type="MeshInstance3D" parent="." unique_id=108896139]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.01, 0)
+mesh = SubResource("PlaneMesh_qfjfu")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1624727160]
+environment = SubResource("Environment_qfjfu")
